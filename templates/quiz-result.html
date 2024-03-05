@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Result</title>
+    <meta name="description" content="Quiz Game with Flask">
+
+  </head>
+  <body>
+    <h1>Quiz Result</h1>
+    <p>Score on Math Quiz: {{ math_score }} / 5</p>
+    <p>Score on Python QUiz: {{ python_score }} / 5</p>
+    <p>Overall Score: {{ math_score + python_score }}</p>
+    <p>Percentage Score: {{ percentage_score }}%</p>
+
+    <a href="/">Go back to Home Page</a>
+  </body>
+</html>
